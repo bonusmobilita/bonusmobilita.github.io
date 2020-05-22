@@ -267,7 +267,7 @@
                 </div>
               </nav>
             </div>
-            <div class="it-header-slim-right-zone">
+        <!--    <div class="it-header-slim-right-zone">
               <div class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
                   <span>ITA</span>
@@ -288,7 +288,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -314,7 +314,7 @@
                   <span>Seguici su</span>
                   <ul>
                     <li>
-                      <a href="#" aria-label="Github" target="_blank">
+                      <a href="https://github.com/bonusmobilita/bonusmobilita.github.io" aria-label="Github" target="_blank">
                         <svg class="icon">
                           <use xlink:href="/svg/sprite.svg#it-github"></use>
                         </svg>
@@ -328,11 +328,10 @@
         </div>
       </div>
     </div>
-    <div class="it-header-navbar-wrapper">
+<!-- <div class="it-header-navbar-wrapper">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <!--start nav-->
             <nav class="navbar navbar-expand-lg has-megamenu">
               <button class="custom-navbar-toggler" type="button" aria-controls="nav02" aria-expanded="false" aria-label="Toggle navigation" data-target="#nav02">
                 <svg class="icon">
@@ -427,7 +426,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div> 
     </header>
@@ -447,7 +446,7 @@
           <div class="it-hero-text-wrapper bg-dark">
               <h1 class="no_toc">Mantieni il mondo un po più pulito</h1>
               <h4 class="d-none d-lg-block text-white">Utilizza la mobilità alternativa per ridurre le emissioni di CO2, fai respirare il pianeta</h4>
-              <div class="it-btn-container"><a class="btn btn-sm btn-secondary" href="#">Scopri di più</a></div>
+              <div class="it-btn-container"><a class="btn btn-sm btn-secondary" href="#scopri">Scopri di più</a></div>
           </div>
         </div>
     </div>
@@ -460,7 +459,7 @@
   <!--start card-->
   <div class="card card-teaser">
     <div class="card-body">
-      <h3 class="card-title">Scopri come funziona il bonus:</h3>
+      <h3 class="card-title" id="scopri">Scopri come funziona il bonus:</h3>
     </div>
   </div>
   <!--end card-->
@@ -473,7 +472,7 @@
       <h5 class="card-title">Chi</h5>
       <p class="card-text">Il buono mobilità spetta ai maggiorenni residenti nei capoluoghi di Regione, nelle Città metropolitane, nei capoluoghi di Provincia ovvero nei Comuni con popolazione superiore a 50.000 abitanti.</p>
     </div>
-      <button type="button" class="btn btn-outline-primary">Verifica comune</button>
+      <button type="button" class="btn btn-outline-primary" onClick="document.getElementById('comuni').scrollIntoView()" >Verifica comune</button>
   </div>
   <!--end card-->
   <!--start card-->
@@ -488,7 +487,7 @@
       <div class="card-text">
         <p>Un contributo fino a 500 euro per l’acquisto di biciclette, anche a pedalata assistita, e di veicoli per la micromobilità elettrica quali monopattini, hoverboard e segway, o per l’utilizzo dei servizi di sharing mobility.</p>
       </div>
-        <button type="button" class="btn btn-outline-primary">Scopri i veicoli</button>
+        <button type="button" class="btn btn-primary disabled">Scopri i veicoli</button>
     </div>
   </div>
   <!--end card-->
@@ -675,6 +674,12 @@
       <label for="comuni">Comune</label>
       <div class="invalid-feedback">Per favore inserisci un nome di città valido.</div>
     </div>
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Attenzione</strong> Alcuni dati sui comuni potrebbero essere errarti o mancanti, si declina ogni respinsabilita. Fonte dati <a href="https://github.com/matteocontrini/comuni-json">link</a>.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
   </div>
   <button class="btn btn-primary mt-3" type="button" onclick="getComune(document.getElementById('comuni').value, document.getElementById('provincia').value)">Invia</button>
 </form>
@@ -738,12 +743,10 @@ function calcolabonus() {
           <div class="col-sm-12">
             <div class="it-brand-wrapper">
               <a href="#">
-                <svg class="icon">
-                  <use xlink:href="/svg/sprite.svg#it-code-circle"></use>
-                </svg>
+                <img src="svg/green.svg" class="icon" />
                 <div class="it-brand-text">
-                  <h2 class="no_toc">Binco</h2>
-                  <h3 class="no_toc d-none d-md-block">Developer</h3>
+                  <h2 class="no_toc">Bonus mobilità</h2>
+                  <h3 class="no_toc d-none d-md-block">sito informativo non ufficiale</h3>
                 </div>
               </a>
             </div>
@@ -756,8 +759,8 @@ function calcolabonus() {
             <h4><a>Progetto</a></h4>
             <div class="link-list-wrapper">
               <ul class="footer-list link-list clearfix">
-                <li><a class="list-item" href="#" >Contribuisci</a></li>
-                <li><a class="list-item" href="#">Segnala un problema</a></li>
+                <li><a class="list-item" href="https://github.com/bonusmobilita/bonusmobilita.github.io" >Contribuisci</a></li>
+                <li><a class="list-item" href="https://github.com/bonusmobilita/bonusmobilita.github.io/issues">Segnala un problema</a></li>
               </ul>
             </div>
           </div>
@@ -771,7 +774,7 @@ function calcolabonus() {
             <div class="pb-2">
               <h4><a href="#" title="Vai alla pagina: Seguici su" class="">Seguici su</a></h4>
               <ul class="list-inline text-left social">
-                <li class="list-inline-item"><a class="p-2 text-white" href="#" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/svg/sprite.svg#it-github"></use></svg><span class="sr-only">Github</span></a></li>
+                <li class="list-inline-item"><a class="p-2 text-white" href="https://github.com/bonusmobilita/bonusmobilita.github.io" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/svg/sprite.svg#it-github"></use></svg><span class="sr-only">Github</span></a></li>
               </ul>
             </div>
           </div>
@@ -783,10 +786,8 @@ function calcolabonus() {
     <div class="container">
       <h3 class="sr-only">Sezione Link Utili</h3>
       <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
-        <li class="list-inline-item"><a href="#" title="Note Legali">Media policy</a></li>
-        <li class="list-inline-item"><a href="#" title="Note Legali">Note legali</a></li>
-        <li class="list-inline-item"><a href="#" title="Privacy-Cookies">Privacy policy</a></li>
-        <li class="list-inline-item"><a href="#" title="Mappa del sito">Mappa del sito</a> </li>
+        <li class="list-inline-item"><a href="cookies.html" target="_blank" title="Privacy-Cookies">Cookies policy</a></li>
+        <p class="text-white">Made with &hearts; by <a href="https://binco.me" target="_blank">Binco</a></p>
       </ul>
     </div>
   </div>
@@ -799,7 +800,7 @@ function calcolabonus() {
         <span class="text-white small">Questo sito utilizza cookie tecnici, analytics e di terze parti.<br>Proseguendo nella navigazione accetti l’utilizzo dei cookie.</span>
       </div>
       <div class="col-12 col-md-6 mt-4 mt-md-0 d-flex justify-content-end">
-        <a class="btn btn-link" href="https://designers.italia.it/privacy-policy/">Privacy policy</a>
+        <a class="btn btn-link" href="cookies.html">Privacy policy</a>
         <button class="btn btn-primary mr-2" data-accept="cookiebar">Accetto</button>
       </div>
     </div>
