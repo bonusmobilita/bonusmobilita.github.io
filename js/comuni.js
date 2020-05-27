@@ -10,8 +10,8 @@ function getComune(searchVal, provincia)
  
 var settings = {
   "async": true,
-  "crossDomain": true,
-  "url": "/comuni.json",
+  "crossDomain": false,
+  "url": "https://raw.githubusercontent.com/matteocontrini/comuni-json/master/comuni.json",
   "contentType" : "josn",
   "method": "GET",
 }
