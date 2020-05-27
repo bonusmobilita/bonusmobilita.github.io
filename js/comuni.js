@@ -14,10 +14,9 @@ var settings = {
   "url": "/comuni.json",
   "contentType" : "josn",
   "method": "GET",
-  "Access-Control-Allow-Origin": "https://bonusmobilita.github.io"
 }
 
-// Provincie che sono citta mteropolitane
+// Provincie che sono città mteropolitane
 var cittametro= "NA MI TO BA BO FI GE VE RC RM PA CT ME"
 
 $.ajax(settings).done(function (jcontent){
