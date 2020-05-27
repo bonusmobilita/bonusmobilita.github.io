@@ -10,10 +10,11 @@ function getComune(searchVal, provincia)
  
 var settings = {
   "async": true,
-  "crossDomain": false,
-  "url": "https://raw.githubusercontent.com/matteocontrini/comuni-json/master/comuni.json",
+  "crossDomain": true,
+  "url": "/comuni.json",
   "contentType" : "josn",
   "method": "GET",
+  "Access-Control-Allow-Origin": "https://bonusmobilita.github.io"
 }
 
 // Provincie che sono citta mteropolitane
