@@ -24,6 +24,18 @@
    "risposta": "Per l’anno 2020 il buono mobilità può essere richiesto per una sola volta e per un unico acquisto di: biciclette nuove o usate, sia tradizionali che a pedalata assistita handbike, nuove o usate, veicoli nuovi o usati per la mobilità personale a propulsione prevalentemente elettrica, di cui all’articolo 33- bis del DL 162/2019, convertito con modificazioni dalla legge 8/2020 (es.  monopattini, hoverboard, segway) servizi di mobilità condivisa a uso individuale esclusi quelli mediante autovetture."
  },
  {
+    "domanda": "COSA SI INTENDE PER BICICLETTA A PEDALATA ASSISTITA?",
+    "risposta": "La bicicletta a pedalata assistita è una bicicletta con un motore elettrico che agevola la pedalata rendendo più facile procedere anche in salita. Il Codice della strada fissa dei requisiti per queste biciclette (potenza massima del motore pari a 0,25 kW, assistenza del motore elettrico fino alla velocità di 25 km/h, interruzione dell’assistenza se si smette di pedalare). Per l’acquisto di biciclette che non rispettano tali requisiti non è possibile usufruire del buono."
+  },
+  {
+    "domanda": "COSA SI INTENDE PER MOBILITÀ CONDIVISA A USO INDIVIDUALE?",
+    "risposta": "Per mobilità condivisa a uso individuale si intende una modalità di spostamento che prevede l’uso dimezzi e veicoli “condivisi” messi a disposizione da operatori pubblici e privati. I servizi di c.d. “sharing mobility”, es. scooter sharing, bike sharing, sono fruibili in numerose città d’Italia."
+  },
+  {
+    "domanda": "COME POSSO ACQUISTARE UN SERVIZO DI MOBILITÀ CONDIVISA?",
+    "risposta": "Fase 1 (dal 4 maggio 2020 fino al giorno di inizio operatività dell'applicazione web): è possibile acquistare i servizi di mobilità condivisa presso qualsiasi rivenditore, con sede localizzata anche in un Comune diverso dal Comune di residenza del beneficiario, non all’estero"
+  },
+ {
    "domanda": "POSSO ACQUISTARE ACCESSORI?",
    "risposta": "Non è ammissibile l'acquisto di accessori (caschi, batterie, catene, lucchetti, ecc.)."
  },
@@ -51,6 +63,10 @@
    "domanda": "PERIODO DI VALIDITÀ DEL BUONO",
    "risposta": "I buoni di spesa devono essere utilizzati entro 30 giorni dalla relativa generazione, pena l’annullamento."
  },
+{
+    "domanda": "CONTROLLI E SANZIONI",
+    "risposta": "Il Ministero dell’Ambiente e della Tutela del Territorio e del Mare controlla e valuta le domande pervenute e vigila sul corretto utilizzo del buono mobilità. In caso di eventuali usi difformi o di violazioni delle norme di legge, il Ministero potrà annullare il buono mobilità o cancellare dall'elenco dei fornitori una struttura, un'impresa o un esercizio commerciale."
+  },
  {
    "domanda": "PROGRAMMA BUONO MOBILITÀ 2020 (SENZA ROTTAMAZIONE) E PROGRAMMA BUONO MOBILITÀ 2021 (PREVIA ROTTAMAZIONE)",
    "risposta": "Il Programma buono mobilità (art. 2 comma 2 del DL Clima così come modificato dal DL Rilancio) prevede: per il 2020 l'erogazione di buoni mobilità per acquisti effettuati dal 4 maggio 2020 al 31 dicembre 2020, senza provvedere ad alcuna rottamazione di veicoli vetusti a partire dal 1 gennaio 2021 l'erogazione di buoni mobilità a fronte della rottamazione di veicoli vetusti effettuata solo nel corso del 2021 i buoni mobilità potranno essere spesi entro il 31 dicembre 2024."
