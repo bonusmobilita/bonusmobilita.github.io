@@ -34,7 +34,7 @@ for (var i=0 ; i < jcontent.length ; i++)
             buono.innerHTML += '<div class="alert alert-success" role="alert"><h4 class="alert-heading">Bonus disponibile</h4><p>Buone notizie, ' + jcontent[i].nome + ' (' + provincia + ') <strong>rientra</strong> tra i comuni in cui è possibile usufuire del bonus mobilità.</p><hr><p class="mb-0">Scopri qui sotto il valore del buono.</p></div>';
         }
             //Capoluogo di provincia o è Verbania o Carbonia (hanno nomi diversi da quello della provincia e non hanno almeno 50000 abutanti)
-            else if (jcontent[i].provincia.nome == jcontent[i].nome || jcontent[i].nome == "Verbania" || jcontent[i].nome == "Carbonia") {
+            else if (jcontent[i].provincia.nome.includes(jcontent[i].nome) || jcontent[i].nome == "Verbania" || jcontent[i].nome == "Carbonia") {
              buono.innerHTML += '<div class="alert alert-success" role="alert"><h4 class="alert-heading">Bonus disponibile</h4><p>Buone notizie, ' + jcontent[i].nome + ' (' + provincia + ') <strong>rientra</strong> tra i comuni in cui è possibile usufuire del bonus mobilità.</p><hr><p class="mb-0">Scopri qui sotto il valore del buono.</p></div>';  
             }
             //Citta metropolitana
