@@ -1,0 +1,75 @@
+[
+  {
+    "nome": "Lime",
+    "logo": "https://cdn2.hubspot.net/hubfs/3434231/Assets/lime-logo-green.png",
+    "slogan": "Il modo più veloce, più intelligente e più conveniente per spostarsi.",
+    "descrizione": "Ottieni un credito di sblocco gratuito con il codice promo",
+    "callout": "note",
+    "callouttitle": "Informazione",
+    "callouttext": "Per ottenere la fattura è necessario inviare una richiesta all'assistenza, scopri i dettagli <a href=\"https://help.li.me/hc/it/articles/360040492294-Come-faccio-a-chiedere-una-fattura-\" target=\"_blank\">qui</a>",
+    "città": ["Rimini","Torino","Verona"],
+    "promo": "RQ3TH5P",
+    "link": "https://lime.bike/referral/RQ3TH5P"
+  },
+  {
+    "nome": "Helbiz",
+    "logo": "https://www.helbiz.com/asset/img/helbiz-new-logo-black.svg",
+    "slogan": "La mobilità condivisa del futuro",
+    "descrizione": "Ottieni 3€ per la tua prossima corsa con il codice promo.",
+    "callout": "danger",
+    "callouttitle": "Attenzione",
+    "callouttext": "Attendo conferma dall'assistenza sulla possibilita di emissione della fattura elettronica necessaria per il bonus.",
+    "città": ["Milano","Torino","Verona","Riccione","Roma","Pesaro"],
+    "promo": "2Q2PAK",
+    "link": "https://helbiz.com"
+  },
+  {
+    "nome": "Dott",
+    "logo": "https://ridedott.com/images/dott-logo-black.svg",
+    "slogan": "Il cambiamento sta arrivando",
+    "descrizione": "Ottieni 2 sblocchi gratuiti per la tua prossima corsa con il codice promo.",
+    "callout": "note",
+    "callouttitle": "Informazione",
+    "callouttext": "Per ottenere un unica fattura con tutte le corse effettuate nel periodo di validità del buono è necessario contattare l’assistenza.",
+    "città": ["Milano","Torino","Roma"],
+    "promo": "0WMXT7Y",
+    "link": "https://referral.ridedott.com/0WMXT7Y"
+  },
+  {
+    "nome": "Hive",
+    "logo": "https://static1.squarespace.com/static/5bc5be18af468331a33d2650/t/5bf7b1b740ec9ad4338af4f5/1589537898395/?format=50w",
+    "slogan": "share electric scooters",
+    "descrizione": "Ottieni 10 minuti gratuiti per la tua prossima corsa con il codice promo.",
+    "callout": "danger",
+    "callouttitle": "Attenzione",
+    "callouttext": "Attendo conferma dall'assistenza sulla possibilita di emissione della fattura elettronica necessaria per il bonus.",
+    "città": ["Torino"],
+    "promo": "ovOU4wYx",
+    "link": "https://idehive.com/app"
+  },
+  {
+    "nome": "Bird",
+    "logo": "https://flyers.bird.co/img/bird.png",
+    "slogan": "Goditi il viaggio!",
+    "descrizione": "Ottieni 5€ gratuiti per la tua prossima corsa con il codice promo.",
+    "callout": "success",
+    "callouttitle": "Informazione",
+    "callouttext": "Per ottenere la fattura della tua corsa basta inserire i propri dati nella sezione  <strong>\"Impostazioni\" -> \"Informazioni fiscali\"</strong> dell'app.",
+    "città": ["Torino"],
+    "promo": "<strong>\"in arrivo\"</strong>",
+    "link": "https://gift.bird.co/share?code=6qrvu4"
+  },
+  {
+    "nome": "Voi.",
+    "logo": "https://images.ohmyhosting.se/G5n2I8JfoB3xAus2ySUOU-Dmn0M=/fit-in/208x/smart/filters:quality(85)/https%3A%2F%2Fwww.voiscooters.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fvoi_logo_coral.png",
+    "slogan": "Goditi il viaggio!",
+    "descrizione": "Ottieni 2,5€ gratuiti per la tua prossima corsa con il codice promo.",
+    "callout": "danger",
+    "callouttitle": "Attenzione",
+    "callouttext": "Attendo conferma dall'assistenza sulla possibilita di emissione della fattura elettronica necessaria per il bonus.",
+    "città": ["Pesaro","Milano"],
+    "promo": "sFLHQeh9U6",
+    "link": "https://link.voiapp.io/sFLHQeh9U6"
+  }
+
+]
