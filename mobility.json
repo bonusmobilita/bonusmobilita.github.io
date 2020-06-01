@@ -16,9 +16,9 @@
     "logo": "https://www.helbiz.com/asset/img/helbiz-new-logo-black.svg",
     "slogan": "La mobilità condivisa del futuro",
     "descrizione": "Ottieni 3€ per la tua prossima corsa con il codice promo.",
-    "callout": "danger",
-    "callouttitle": "Attenzione",
-    "callouttext": "Attendo conferma dall'assistenza sulla possibilita di emissione della fattura elettronica necessaria per il bonus.",
+    "callout": "note",
+    "callouttitle": "Informazione",
+    "callouttext": "Per ottenere la fattura è necessario inviare una richiesta all'assistenza, indicatndo codice fiscale e indirizzo.",
     "città": ["Milano","Torino","Verona","Riccione","Roma","Pesaro"],
     "promo": "2Q2PAK",
     "link": "https://helbiz.com"
