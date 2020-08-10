@@ -6,7 +6,7 @@ var searchVal = buono.getAttribute("data-comune");
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "/comuni.json",
+  "url": "https://bonusmobilita.github.io/comuni.json",
   "contentType" : "josn",
   "method": "GET",
 }
